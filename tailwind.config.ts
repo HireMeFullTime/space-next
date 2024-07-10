@@ -12,7 +12,10 @@ const config: Config = {
         "barlow": ["var(--font-barlow)"],
         "barlow_condensed": ["var(--font-barlow-condensed)"],
         "bellefair": ["var(--bellefair)"]
-      }
+      },
+      screens: {
+        'xl': '1440px',
+      },
     },
   },
   plugins: [],
