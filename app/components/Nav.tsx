@@ -21,7 +21,7 @@ const Nav = () => {
             <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-white/50 opacity-0 peer-hover:opacity-100" />
 
             {pathname === item.href && (
-              <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-white"></div>
+              <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-white" />
             )}
           </li>
         ))}
