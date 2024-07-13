@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="flex w-full flex-col overflow-y-auto outline-dotted outline-1">
+    <div className="flex w-full  flex-col overflow-y-auto ">
       <p>Home</p>
     </div>
   );
