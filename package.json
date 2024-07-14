@@ -2,6 +2,7 @@
   "name": "space-next",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -26,6 +27,8 @@
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-tailwindcss": "^3.13.0",
     "postcss": "^8",
+    "prettier": "3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
