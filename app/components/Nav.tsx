@@ -9,7 +9,7 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="hidden  h-full w-full max-w-[450px] items-center bg-[#FFFFFF0A] px-12 font-barlow_condensed text-sm tracking-[2.36px] text-white   outline-dotted outline-1 outline-orange-300 backdrop-blur-2xl supports-[not(backdrop-filter:blur(1px))]:bg-[#1c1a26] md:flex lg:max-w-[830px] xl:pl-[123px] xl:text-base xl:tracking-[2.7px]">
+    <nav className="hidden  h-full w-full max-w-[450px] items-center bg-[#FFFFFF0A] px-12 font-barlow_condensed text-sm tracking-[2.36px] text-white backdrop-blur-2xl supports-[not(backdrop-filter:blur(1px))]:bg-[#1c1a26] md:flex lg:max-w-[830px] xl:pl-[123px] xl:text-base xl:tracking-[2.7px]">
       <ul className="relative flex h-full gap-9 ">
         {navLinks.map((item) => (
           <li key={item.id} className="relative flex h-full items-center">
