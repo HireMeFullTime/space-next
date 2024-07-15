@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import close_icon from '../assets/close_icon.png';
-import { navLinks } from '../utils/navllinks';
+import { navLinks } from '../utils/navlinks';
 
 interface MenuItemsProps {
   closeMenu: () => void;
