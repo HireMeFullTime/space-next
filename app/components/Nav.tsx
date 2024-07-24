@@ -25,7 +25,12 @@ const Nav = () => {
             )}
           </li>
         ))}
-        <div className="absolute  -left-[570px] top-2/4 hidden h-[1px] w-full max-w-[473px] bg-[#ffffff40] xl:block" />
+
+        <div
+          className="absolute -left-[503px]  top-2/4 hidden h-[1px] w-full
+        max-w-[473px]   bg-[#ffffff40]
+        xl:block"
+        />
       </ul>
     </nav>
   );
